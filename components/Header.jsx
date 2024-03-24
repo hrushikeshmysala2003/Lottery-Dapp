@@ -32,9 +32,9 @@ const Header = () => {
         </button>
       </div>
 
-      <div className="md:flex justify-between items-center  py-8 text-white ">
-        <div className="py-4">
-          <h2 className="text-4xl  font-bold">
+      <div className="md:flex justify-between items-center  py-16 text-white ">
+        <div className="py-4 flex flex-col justify-between  ">
+          <h2 className="md:text-5xl text-3xl   font-bold md:py-10 py-4">
             Take the chance to change your life
           </h2>
           <p className="text-xl">
@@ -47,10 +47,10 @@ const Header = () => {
         </div>
       </div>
 
-      <div className=" h-10  ">
+      <div className="h-20 py-6 flex items-center  ">
         <Link
           href={"/create"}
-          className="bg-amber-500 hover:bg-red-600 text-white font-semibold hover:text-white rounded px-2 py-3 border border-blue-500 hover:border-transparent cursor-pointer"
+          className="bg-amber-500 hover:bg-red-600 text-white font-semibold hover:text-white rounded-2xl px-2 py-3 border border-blue-500 hover:border-transparent cursor-pointer"
         >
           Create Jackpot
         </Link>
