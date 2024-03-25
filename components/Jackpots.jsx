@@ -22,7 +22,7 @@ const Jackpots = ({ jackpots }) => {
 
 const Jackpot = ({ jackpot }) => {
   return (
-    <div className="border border-neutral-400 rounded-3xl bg-slate-800 text-white px-5 py-6 ">
+    <div className="shadow sm:shadow-md md:shadow-lg lg:shadow-xl  border border-neutral-400 rounded-3xl bg-slate-800 text-white px-5 py-6 ">
       <div className="flex space-x-4 sm:justify-between justify-start">
         <Image
           src={img}

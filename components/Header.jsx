@@ -43,7 +43,13 @@ const Header = () => {
           </p>
         </div>
         <div>
-          <Image className="rounded-3xl  " src={img} width={500} height={500} />
+          <Image
+            className="rounded-3xl  "
+            src={img}
+            alt="none"
+            width={500}
+            height={500}
+          />
         </div>
       </div>
 
